@@ -1,0 +1,17 @@
+1. For view detils->ElephantProject.tsx line 183, 184
+{/* View Link */}
+              <div className="flex items-center text-[#d4af37] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {/*View Details
+                <ArrowUpRight size={16} className="ml-1" />*/}
+              </div>
+
+2. change background->line 141 to 148
+<div className="absolute inset-0 z-[2] flex items-center justify-center opacity-75">
+        <img
+          src="/images/elephant3.png"
+          alt="Elephant"
+          className="w-[800px] h-[800px] object-contain"
+        />
+      </div>
+
+3.

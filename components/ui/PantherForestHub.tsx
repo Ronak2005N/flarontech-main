@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const SPIRITS = [
   { name: 'Dragon',    logo: '/images/dragon.png',   color: '#e62e2d', active: true,  href: '/dragon' },
-  { name: 'Elephant',  logo: '/images/elephant.png', color: '#6366f1', active: false, href: null },
+  { name: 'Elephant',  logo: '/images/elephant.png', color: '#64748b', active: true, href: '/elephant' },
   { name: 'Falcon',    logo: '/images/falcon.png',   color: '#f59e0b', active: false, href: null },
-  { name: 'Fox',       logo: '/images/fox.png',      color: '#f97316', active: false, href: null },
+  { name: 'Fox',       logo: '/images/fox.png',      color: '#f97316', active: true, href: '/fox' },
   { name: 'Panther',   logo: '/images/panthor.png',  color: '#00D98B', active: true,  href: '/panther' },
 ];
 

@@ -180,10 +180,9 @@ export default function ElephantProjects() {
 
               {/* View Link */}
               <div className="flex items-center text-[#d4af37] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                View Details
-                <ArrowUpRight size={16} className="ml-1" />
+              {/*View Details
+                <ArrowUpRight size={16} className="ml-1" />*/}
               </div>
-
               {/* Hover Border Effect */}
               <div className="absolute inset-0 border-2 border-[#d4af37] opacity-0 group-hover:opacity-20 rounded-lg transition-opacity duration-300 pointer-events-none" />
             </div>

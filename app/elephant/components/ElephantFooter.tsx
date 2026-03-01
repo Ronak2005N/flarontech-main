@@ -9,17 +9,17 @@ export default function ElephantFooter() {
     {
       icon: <Github size={20} />,
       label: 'GitHub',
-      href: '#',
+      href: 'https://github.com/Ronak2005N',
     },
     {
       icon: <Linkedin size={20} />,
       label: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/ronak-n-49958a287/',
     },
     {
       icon: <Mail size={20} />,
       label: 'Email',
-      href: 'mailto:contact@ronak.dev',
+      href: 'mailto:iamronakn@gmail.com',
     },
   ];
 
@@ -44,9 +44,18 @@ export default function ElephantFooter() {
             <h3 className="text-3xl font-bold mb-2">
               RONAK<span className="text-[#d4af37]">.</span>
             </h3>
-            <p className="text-sm text-[#64748b] max-w-xs">
+            <p className="text-sm text-[#64748b] max-w-xs mb-3">
               System Architect • AI Builder • Strategic Developer
             </p>
+            <div className="flex flex-col md:flex-row gap-2 md:gap-4 text-xs text-[#64748b]">
+              <a href="tel:+918056257830" className="hover:text-[#d4af37] transition-colors">
+                +91 8056257830
+              </a>
+              <span className="hidden md:inline">•</span>
+              <a href="mailto:iamronakn@gmail.com" className="hover:text-[#d4af37] transition-colors">
+                iamronakn@gmail.com
+              </a>
+            </div>
           </div>
 
           {/* Social Links */}
@@ -76,12 +85,6 @@ export default function ElephantFooter() {
             The Elephant Architect – Strategic by Design
           </p>
         </div>
-
-        {/* Decorative Corners */}
-        <div className="absolute top-8 left-8 w-12 h-12 border-t-2 border-l-2 border-[#d4af37] opacity-20" />
-        <div className="absolute top-8 right-8 w-12 h-12 border-t-2 border-r-2 border-[#d4af37] opacity-20" />
-        <div className="absolute bottom-8 left-8 w-12 h-12 border-b-2 border-l-2 border-[#d4af37] opacity-20" />
-        <div className="absolute bottom-8 right-8 w-12 h-12 border-b-2 border-r-2 border-[#d4af37] opacity-20" />
       </div>
     </footer>
   );

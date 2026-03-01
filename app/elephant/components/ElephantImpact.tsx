@@ -17,9 +17,9 @@ interface Metric {
 
 const metrics: Metric[] = [
   {
-    value: 10000,
+    value: 18,
     prefix: '₹',
-    suffix: '+',
+    suffix: 'K+',
     label: 'Project Revenue Generated',
     color: '#d4af37',
   },
@@ -120,7 +120,7 @@ export default function ElephantImpact() {
                   className="text-5xl md:text-6xl font-bold tracking-tight"
                   style={{ color: metric.color }}
                 >
-                  {metric.prefix || ''}0{metric.suffix}
+                  {metric.prefix || ''}{metric.value}{metric.suffix}
                 </span>
               </div>
 

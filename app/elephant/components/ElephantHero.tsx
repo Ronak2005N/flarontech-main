@@ -141,7 +141,7 @@ export default function ElephantHero() {
       {/* Elephant Image Background */}
       <div className="absolute inset-0 z-[2] flex items-center justify-center opacity-75">
         <img
-          src="/images/elephant.png"
+          src="/images/elephant3.png"
           alt="Elephant"
           className="w-[800px] h-[800px] object-contain"
         />
