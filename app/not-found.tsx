@@ -45,7 +45,7 @@ export default function NotFound() {
                 }}
             >
                 <img
-                    src="/images/404-error.png"
+                    src="/images/404-error.webp"
                     alt="404 - Page Not Found"
                     style={{
                         width: '100%',

@@ -1,16 +1,16 @@
 import React from 'react';
 import LogoLoop from '@/components/LogoLoop';
 import GlassIcons, { GlassIconsItem } from '@/components/GlassIcons';
-import { 
-  SiPytorch, 
-  SiTensorflow, 
-  SiDocker, 
-  SiFastapi, 
-  SiNextdotjs, 
-  SiPython, 
-  SiTypescript, 
-  SiGit, 
-  SiFlask 
+import {
+  SiPytorch,
+  SiTensorflow,
+  SiDocker,
+  SiFastapi,
+  SiNextdotjs,
+  SiPython,
+  SiTypescript,
+  SiGit,
+  SiFlask
 } from 'react-icons/si';
 import { VscAzure } from 'react-icons/vsc';
 
@@ -41,7 +41,7 @@ const domainPillars: GlassIconsItem[] = [
     label: 'Execution Speed',
   },
   {
-    icon: <img src="/images/icons8-forest-1500.png" alt="Forest" className="w-10 h-10 object-contain drop-shadow-lg" />,
+    icon: <img src="/images/icons8-forest-1500.webp" alt="Forest" className="w-10 h-10 object-contain drop-shadow-lg" />,
     color: 'green',
     label: 'Ecosystem Building',
   },
@@ -51,12 +51,12 @@ const domainPillars: GlassIconsItem[] = [
     label: 'Growth & Learning',
   },
   {
-    icon: <img src="/images/icons8-ai-code.png" alt="AI Code" className="w-10 h-10 object-contain drop-shadow-lg" />,
+    icon: <img src="/images/icons8-ai-code.webp" alt="AI Code" className="w-10 h-10 object-contain drop-shadow-lg" />,
     color: 'purple',
     label: 'Code Intelligence',
   },
   {
-    icon: <img src="/images/icons8-data-chart.png" alt="Data" className="w-10 h-10 object-contain drop-shadow-lg" />,
+    icon: <img src="/images/icons8-data-chart.webp" alt="Data" className="w-10 h-10 object-contain drop-shadow-lg" />,
     color: 'blue',
     label: 'Data Science',
   },
@@ -65,7 +65,7 @@ const domainPillars: GlassIconsItem[] = [
 export default function TechStack() {
   return (
     <div className="w-full flex flex-col items-center py-20 overflow-hidden">
-      
+
       {/* SECTION HEADER */}
       <div className="mb-16 flex flex-col items-center text-center px-4">
         <h3 className="text-3xl md:text-5xl font-heading text-white">THE <span className="text-dragon-red">CORE</span></h3>
@@ -76,14 +76,14 @@ export default function TechStack() {
       <div className="w-full max-w-7xl relative my-8">
         <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-obsidian-900 to-transparent z-10"></div>
         <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-obsidian-900 to-transparent z-10"></div>
-        <LogoLoop 
-          logos={logos} 
-          speed={100} 
-          direction="left" 
-          logoHeight={60} 
-          gap={80} 
+        <LogoLoop
+          logos={logos}
+          speed={100}
+          direction="left"
+          logoHeight={60}
+          gap={80}
           fadeOut={false} // Handled by our absolute gradients above for cleaner integration with obsidian theme
-          scaleOnHover={true} 
+          scaleOnHover={true}
           className="opacity-80"
         />
       </div>
