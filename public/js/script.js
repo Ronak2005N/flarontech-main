@@ -345,7 +345,8 @@ const animalSVGs = {
       role: 'Chief Marketing Officer',
       animal: 'tiger',
       desc: 'Bold, striking, and impossible to ignore. Crafting brand narratives that leave a lasting impression on every audience.',
-      animalName: '🦊 Fox Charm'
+      animalName: '🦊 Fox Charm',
+      animalTypeUrl: '/faheem'
     }
   ];
 
