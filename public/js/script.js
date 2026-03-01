@@ -320,7 +320,8 @@ const animalSVGs = {
       role: 'Chief Technology Officer',
       animal: 'elephant',
       desc: 'Wise, resilient, and unforgettable. Building the technological backbone with steadfast determination and enormous impact.',
-      animalName: '🐘 Elephant Strength'
+      animalName: '🐘 Elephant Strength',
+      animalTypeUrl: '/elephant'
     },
     {
       name: 'Thamil',
@@ -364,7 +365,9 @@ const animalSVGs = {
         <h2 class="animal-name glow-text">${member.name}</h2>
         <p class="animal-role">${member.role}</p>
         <p class="animal-desc">${member.desc}</p>
-        <span class="animal-type">${member.animalName}</span>
+        ${member.animalTypeUrl
+          ? `<a href="${member.animalTypeUrl}" class="animal-type animal-type-link">${member.animalName}</a>`
+          : `<span class="animal-type">${member.animalName}</span>`}
         ${member.portfolioUrl ? `
         <a href="${member.portfolioUrl}" class="${member.portfolioBtnClass}">
           <span class="${member.portfolioBtnClass}-icon">${member.portfolioIcon}</span>

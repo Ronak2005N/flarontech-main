@@ -726,6 +726,18 @@ body {
   font-weight: 500;
 }
 
+.animal-type-link {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.animal-type-link:hover {
+  transform: translateY(-2px);
+  background: rgba(150, 191, 138, 0.14);
+  border-color: rgba(150, 191, 138, 0.3);
+}
+
 /* Dragon Portal Button */
 .dragon-portal-btn {
   display: inline-flex;
