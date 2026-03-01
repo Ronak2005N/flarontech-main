@@ -15,7 +15,7 @@ export default function DragonPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0c] text-white selection:bg-[#e62e2d] selection:text-white">
       <GlassNav />
-      
+
       {/* SECTION 1: HERO */}
       <section id="hero">
         <DragonHero />
@@ -25,7 +25,7 @@ export default function DragonPage() {
       <section id="philosophy" className="min-h-screen flex items-center justify-center border-b border-white/5 bg-[#0a0a0c] px-6 py-24 md:py-32 relative overflow-hidden">
         {/* Decorative Grid Line Background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none" />
-        
+
         <div className="max-w-5xl mx-auto relative z-10 w-full">
           <div className="mb-12">
             <h2 className="font-heading text-[#e62e2d] text-xl md:text-2xl uppercase tracking-[0.3em] mb-4 flex items-center">
@@ -33,7 +33,7 @@ export default function DragonPage() {
               The Core Philosophy
             </h2>
           </div>
-          
+
           <ScrollReveal
             baseOpacity={0.15}
             enableBlur={true}
