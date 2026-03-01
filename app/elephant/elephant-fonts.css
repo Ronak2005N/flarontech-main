@@ -1,0 +1,13 @@
+/* Elephant Font Styles */
+.elephant-layout {
+  font-family: var(--font-offbit);
+}
+
+.elephant-layout h1,
+.elephant-layout h2,
+.elephant-layout h3,
+.elephant-layout h4,
+.elephant-layout h5,
+.elephant-layout h6 {
+  font-family: var(--font-murai) !important;
+}
