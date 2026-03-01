@@ -44,17 +44,16 @@ export default function ForestHub() {
           ].map((spirit, i) => {
             const CardWrapper = spirit.href
               ? ({ children }: { children: React.ReactNode }) => (
-                  <Link href={spirit.href!} className="block">{children}</Link>
-                )
+                <Link href={spirit.href!} className="block">{children}</Link>
+              )
               : ({ children }: { children: React.ReactNode }) => <>{children}</>;
             return (
               <CardWrapper key={i}>
                 <div
-                  className={`relative flex flex-col items-center rounded-2xl border p-5 md:p-6 w-[120px] md:w-[140px] transition-all duration-500 ${
-                    spirit.active
+                  className={`relative flex flex-col items-center rounded-2xl border p-5 md:p-6 w-[120px] md:w-[140px] transition-all duration-500 ${spirit.active
                       ? 'border-white/20 bg-white/[0.04] shadow-[0_0_30px_rgba(0,0,0,0.3)] hover:border-white/40 hover:scale-105 cursor-pointer'
                       : 'border-white/5 bg-white/[0.01] opacity-50'
-                  }`}
+                    }`}
                 >
                   <img src={spirit.logo} alt={spirit.name} className="w-10 h-10 md:w-12 md:h-12 object-contain mb-2" />
                   <span className="text-xs font-heading text-white tracking-wider">{spirit.name}</span>
