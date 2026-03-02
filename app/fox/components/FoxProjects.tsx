@@ -13,13 +13,19 @@ const projects = [
     title: "Timetable Management System",
     description:
       "An automated timetable generation and management system designed for educational institutions to streamline scheduling workflows.",
-    technologies: ["ReactJs", "JavaScript", "PHP", "MySQL"],
+    technologies: ["JavaScript", "PHP", "MySQL"],
   },
   {
     title: "Employee Management System",
     description:
       "A full-featured employee management platform built for internal operations, including record management, documentation, and team coordination tools.",
-    technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    technologies: ["PHP", "MySQL", "JavaScript"],
+  },
+  {
+    title: "Anonymous Employee Query & Feedback System",
+    description:
+      "Query Box that allows employees to submit queries and feedback anonymously, ensuring confidentiality and promoting transparent communication within the organization.",
+    technologies: ["TypeScript","NextJS"],
   },
 ]
 
