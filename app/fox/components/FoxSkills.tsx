@@ -10,7 +10,7 @@ const skills = [
   "NextJs",
   "PHP",
   "MySQL",
-  "REST API"
+  "REST API",
   "Documentation",
   "Vercel",
   "Canva",
