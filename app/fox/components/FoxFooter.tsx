@@ -5,9 +5,6 @@ export function FoxFooter() {
         <p className="text-sm text-[#9ca3af]">
           {"Faheemudheen N"}
         </p>
-        <p className="text-xs text-[#9ca3af]/60">
-          {"Built with Next.js & Tailwind CSS"}
-        </p>
       </div>
     </footer>
   )
