@@ -346,7 +346,7 @@ const animalSVGs = {
       animal: 'tiger',
       desc: 'Bold, striking, and impossible to ignore. Crafting brand narratives that leave a lasting impression on every audience.',
       animalName: '🦊 Fox Charm',
-      animalTypeUrl: '/faheem'
+      animalTypeUrl: '/fox'
     }
   ];
 
