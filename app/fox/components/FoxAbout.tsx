@@ -50,7 +50,7 @@ export function FoxAbout() {
               </div>
               <div className="text-center">
                 <p className="text-2xl font-bold text-white">4</p>
-                <p className="mt-1 text-xs text-[#9ca3af]">Languages</p>
+                <p className="mt-1 text-xs text-[#9ca3af]">Spoken Languages</p>
               </div>
             </div>
           </div>
