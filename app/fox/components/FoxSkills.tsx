@@ -11,7 +11,6 @@ const skills = [
   "PHP",
   "MySQL",
   "Documentation",
-  "Presentation Skills",
   "Canva",
   "Figma",
 ]
