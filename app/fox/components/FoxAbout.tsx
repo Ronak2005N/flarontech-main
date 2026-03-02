@@ -45,7 +45,7 @@ export function FoxAbout() {
                 <p className="mt-1 text-xs text-[#9ca3af]">CGPA</p>
               </div>
               <div className="text-center">
-                <p className="text-2xl font-bold text-white">3</p>
+                <p className="text-2xl font-bold text-white">4</p>
                 <p className="mt-1 text-xs text-[#9ca3af]">Projects</p>
               </div>
               <div className="text-center">
