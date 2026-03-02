@@ -21,12 +21,7 @@ const projects = [
       "A full-featured employee management platform built for internal operations, including record management, documentation, and team coordination tools.",
     technologies: ["PHP", "MySQL", "JavaScript"],
   },
-  {
-    title: "Anonymous Employee Query & Feedback System",
-    description:
-      "Query Box that allows employees to submit queries and feedback anonymously, ensuring confidentiality and promoting transparent communication within the organization.",
-    technologies: ["TypeScript","NextJS"],
-  },
+ 
 ]
 
 export function FoxProjects() {
