@@ -20,9 +20,9 @@ export function FoxHero() {
           <p className="mb-4 text-2xl font-medium uppercase tracking-[0.3em] text-[#ff6b35]">
             THE FOX
           </p>
-          <h1 className="mb-6 text-5xl font-normal leading-tight tracking-tight text-white md:text-7xl" style={{ fontFamily: '"Times New Roman", serif' }}>
+          <h3 className="mb-6 text-5xl font-normal leading-tight tracking-tight text-white md:text-7xl" style={{ fontFamily: '"Times New Roman", serif' }}>
             <span>FAHEEMUDHEEN N</span>
-          </h1>
+          </h3>
           <p className="mx-auto mb-4 max-w-2xl text-lg text-[#c4c4c4] md:text-xl">
             <span className="text-[#ff6b35]">Computer Science Engineering Student</span> | <span className="text-[#ff6b35]">Full Stack Developer</span>
           </p>
