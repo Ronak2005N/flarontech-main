@@ -10,7 +10,7 @@ export default function DragonFooter() {
 
         {/* Big Text + Forest Image Row */}
         <div className="flex flex-col lg:flex-row items-stretch gap-0 mb-16 rounded-3xl overflow-hidden border border-white/5 shadow-[0_0_50px_rgba(0,0,0,0.4)]">
-          {/* Forest Image — fills left side */}
+          {/* Forest Image -fills left side */}
           <div className="w-full lg:w-5/12 relative min-h-[200px] md:min-h-[280px] lg:min-h-[360px]">
             <img
               src="/images/vivid-forest-background.png"

@@ -47,7 +47,7 @@ const cards: CardData[] = [
   {
     number: '03',
     role: 'AI R&D Intern & Project Lead',
-    org: 'Hindustan University — QritiQ',
+    org: 'Hindustan University -QritiQ',
     duration: 'May – Jul 2025',
     bullets: [
       'Led university-funded QritiQ: AI self-intro evaluation with 95% transcription accuracy',
@@ -67,7 +67,7 @@ const cards: CardData[] = [
     bullets: [
       'Delivered AI automation scripts and data pipelines in Python under production timelines',
       'Built ML prototypes covering NLP, classification, and generative tasks',
-      'First professional AI engineering experience — set the trajectory for all future roles',
+      'First professional AI engineering experience -set the trajectory for all future roles',
     ],
     tags: ['Python', 'NLP', 'Classification', 'Automation'],
     accentColor: 'border-l-[#a855f7]',
@@ -80,8 +80,8 @@ const cards: CardData[] = [
     org: 'IIT Madras + Hindustan University',
     duration: 'Aug 2023 – Dec 2027',
     bullets: [
-      'BS Data Science & Applications — IIT Madras (Jan 2025 – Dec 2027)',
-      'BTech Computer Science — Hindustan University (9.63 CGPA · 2nd University Rank)',
+      'BS Data Science & Applications -IIT Madras (Jan 2025 – Dec 2027)',
+      'BTech Computer Science -Hindustan University (9.63 CGPA · 2nd University Rank)',
       'Pinnacle Performer Award · Excellence in Academia · Active researcher & builder',
     ],
     tags: ['IIT Madras', 'BTech CS', 'Data Science', '9.63 CGPA', 'Rank 2'],
@@ -164,7 +164,7 @@ export default function ExperienceJourney() {
           EXPERIENCE &amp; <span className="text-[#e62e2d]">ROLES</span>
         </h3>
         <p className="mt-4 text-white/40 font-sans text-sm tracking-wide max-w-xl">
-          From first internship to leading AI teams — every card is a level unlocked.
+          From first internship to leading AI teams -every card is a level unlocked.
         </p>
       </div>
 

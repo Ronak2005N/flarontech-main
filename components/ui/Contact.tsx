@@ -104,7 +104,7 @@ export default function Contact() {
       <div className="relative z-10 w-full max-w-6xl mx-auto px-4 md:px-8 pb-20">
         <div className="flex flex-col lg:flex-row gap-10">
 
-          {/* Left: Contact Links — with hover glow + stagger */}
+          {/* Left: Contact Links -with hover glow + stagger */}
           <div className="lg:w-1/2">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {links.map((link, i) => (
@@ -151,7 +151,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right: Contact Form — upgraded */}
+          {/* Right: Contact Form -upgraded */}
           <div className="lg:w-1/2">
             <motion.div
               initial={{ opacity: 0, y: 20 }}

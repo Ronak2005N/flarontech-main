@@ -16,7 +16,7 @@ const projects: ProjectCard[] = [
   {
     icon: <Brain className="size-5 text-[#e62e2d]" />,
     title: 'Imitate Labs MVP',
-    description: 'Full-stack Creator Style Replication AI — CNN-ViT + LoRA. From zero to production.',
+    description: 'Full-stack Creator Style Replication AI -CNN-ViT + LoRA. From zero to production.',
     tags: ['PyTorch', 'FastAPI', 'Next.js', 'Docker'],
     link: 'https://www.imitatelabs.ai',
     accent: 'border-[#e62e2d]/30 hover:border-[#e62e2d]/70',
@@ -58,7 +58,7 @@ const projects: ProjectCard[] = [
   {
     icon: <Gamepad2 className="size-5 text-[#f97316]" />,
     title: 'AI Unfiltered',
-    description: 'College tech event game — prompt guardrails, human vs AI, GenAI evaluation.',
+    description: 'College tech event game -prompt guardrails, human vs AI, GenAI evaluation.',
     tags: ['TypeScript', 'Prompt Eng', 'GenAI'],
     link: 'https://ai-unfiltered-five.vercel.app',
     accent: 'border-[#f97316]/30 hover:border-[#f97316]/70',
@@ -94,7 +94,7 @@ export default function ProjectsVault() {
           PROJECTS &amp; <span className="text-[#ffc107]">BUILDS</span>
         </h3>
         <p className="mt-4 text-white/40 font-sans text-sm tracking-wide max-w-xl">
-          17+ shipped products. From AI platforms to Chrome extensions — everything built to solve.
+          17+ shipped products. From AI platforms to Chrome extensions -everything built to solve.
         </p>
       </div>
 

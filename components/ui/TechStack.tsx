@@ -136,19 +136,19 @@ const domainPillars: GlassIconsItem[] = [
 
 /* ── Domain descriptions (below pillar cards) ── */
 const domainDescriptions: Record<string, string> = {
-  'AI/ML Engineering': 'PyTorch, TensorFlow, OpenCV — building & deploying intelligent systems',
-  'Execution Speed': 'Ship fast, iterate faster — prototypes in days, not months',
+  'AI/ML Engineering': 'PyTorch, TensorFlow, OpenCV - building & deploying intelligent systems',
+  'Execution Speed': 'Ship fast, iterate faster - prototypes in days, not months',
   'Ecosystem Building': 'Creating tools, teams, and platforms that compound over time',
   'Growth & Learning': 'Mastering new domains on demand with AI as a force multiplier',
   'Code Intelligence': 'AI-augmented coding, automated pipelines, and smart tooling',
-  'Data Science': 'Pandas, NumPy, SQL — turning raw data into actionable insights',
+  'Data Science': 'Pandas, NumPy, SQL - turning raw data into actionable insights',
 };
 
 export default function TechStack() {
   return (
     <div className="w-full flex flex-col items-center py-20 overflow-hidden">
 
-      {/* SECTION HEADER — cohesive narrative */}
+      {/* SECTION HEADER - cohesive narrative */}
       <div className="mb-6 flex flex-col items-center text-center px-4">
         <span className="text-xs font-mono tracking-[0.5em] uppercase text-white/40 block mb-4">
           Arsenal / 03
@@ -159,7 +159,7 @@ export default function TechStack() {
         </p>
       </div>
 
-      {/* COMPONENT A: LogoLoop — Tech Arsenal */}
+      {/* COMPONENT A: LogoLoop - Tech Arsenal */}
       <div className="w-full max-w-7xl relative my-8">
         <div className="mb-6 text-center">
           <h4 className="font-heading text-lg md:text-xl text-white/80 tracking-wide uppercase">
@@ -186,7 +186,7 @@ export default function TechStack() {
       {/* Connecting line between sections */}
       <div className="w-[1px] h-16 bg-gradient-to-b from-white/10 to-white/5 my-4" />
 
-      {/* COMPONENT B: GlassIcons — Domains of Mastery */}
+      {/* COMPONENT B: GlassIcons - Domains of Mastery */}
       <div className="mt-8 w-full max-w-6xl px-8">
         <div className="mb-2 text-center">
           <h4 className="font-heading text-lg md:text-xl text-dragon-yellow tracking-wide uppercase">

@@ -12,7 +12,7 @@ const capabilities = [
   {
     icon: <Layers className="size-5" />,
     title: 'Any Stack, Any Domain',
-    desc: 'Web, mobile, AI, desktop — whatever the solution demands.',
+    desc: 'Web, mobile, AI, desktop -whatever the solution demands.',
     color: '#ffc107',
   },
   {

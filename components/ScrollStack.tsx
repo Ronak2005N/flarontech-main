@@ -215,7 +215,7 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
 
   const setupLenis = useCallback(() => {
     if (useWindowScroll) {
-      // For window scroll mode, use native scroll listener — no Lenis wrapper
+      // For window scroll mode, use native scroll listener -no Lenis wrapper
       // This avoids nested scroll context desync
       window.addEventListener('scroll', handleScroll, { passive: true });
       window.addEventListener('resize', handleScroll, { passive: true });
@@ -319,7 +319,7 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
     cleanupWindowListeners
   ]);
 
-  // When useWindowScroll=true, render a plain transparent wrapper — no overflow, no height
+  // When useWindowScroll=true, render a plain transparent wrapper -no overflow, no height
   // so getBoundingClientRect() reads positions in the real document coordinate space.
   if (useWindowScroll) {
     return (

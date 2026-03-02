@@ -8,7 +8,7 @@ import { gsap } from 'gsap';
 import { motion, AnimatePresence } from 'framer-motion';
 
 /* ═══════════════════════════════════════════════════
-   LAYER 1a — HUD Wire Grid (Three.js)
+   LAYER 1a -HUD Wire Grid (Three.js)
    A tilted, slowly rotating wireframe grid that gives
    the "AI operations room" feel beneath the particles.
 ═══════════════════════════════════════════════════ */
@@ -32,7 +32,7 @@ function HUDGrid() {
 }
 
 /* ═══════════════════════════════════════════════════
-   LAYER 1b — Dragon Particle Core (Three.js)
+   LAYER 1b -Dragon Particle Core (Three.js)
    ~2000 red/orange particles in a spherical cluster
    that slowly orbits behind the title text.
 ═══════════════════════════════════════════════════ */
@@ -79,7 +79,7 @@ function DragonParticles() {
 }
 
 /* ═══════════════════════════════════════════════════
-   LAYER 1c — Secondary Ember Particles
+   LAYER 1c -Secondary Ember Particles
    Smaller, scattered orange sparks for depth
 ═══════════════════════════════════════════════════ */
 function EmberParticles() {
@@ -118,7 +118,7 @@ function EmberParticles() {
 }
 
 /* ═══════════════════════════════════════════════════
-   LAYER 3 — Foreground Content
+   LAYER 3 -Foreground Content
    Kinetic typography, cycling subtitle, CTAs
 ═══════════════════════════════════════════════════ */
 const SUBTITLE_ROLES = [
@@ -224,7 +224,7 @@ function HeroContent() {
 
   return (
     <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-      {/* ── "THE" — small anchored text ── */}
+      {/* ── "THE" -small anchored text ── */}
       <div ref={theRef} className="opacity-0 mb-1 md:mb-2">
         <span
           className="font-mono text-sm md:text-base tracking-[0.5em] uppercase text-white/80"
@@ -234,7 +234,7 @@ function HeroContent() {
         </span>
       </div>
 
-      {/* ── "DRAGON" — massive kinetic heading ── */}
+      {/* ── "DRAGON" -massive kinetic heading ── */}
       <div ref={nameRef} className="overflow-hidden mb-3">
         {'DRAGON'.split('').map((char, i) => (
           <span
@@ -315,7 +315,7 @@ function HeroContent() {
 }
 
 /* ═══════════════════════════════════════════════════
-   MAIN HERO COMPONENT — 4-Layer Architecture
+   MAIN HERO COMPONENT -4-Layer Architecture
 ═══════════════════════════════════════════════════ */
 export default function DragonHero() {
   const videoRef = useRef<HTMLVideoElement>(null);

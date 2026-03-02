@@ -20,7 +20,7 @@ const issuerLogos: Record<string, { icon: React.ReactNode; color: string }> = {
 };
 
 /* ═══════════════════════════════════════════════════
-   VISUAL TIERS — for hierarchy
+   VISUAL TIERS -for hierarchy
 ═══════════════════════════════════════════════════ */
 type CertTier = 'professional' | 'foundation' | 'course';
 
@@ -148,7 +148,7 @@ const awards: AwardItem[] = [
     accent: '#ffc107',
   },
   {
-    title: 'Excellence in Academia — 2nd University Rank',
+    title: 'Excellence in Academia -2nd University Rank',
     issuer: 'Hindustan University',
     date: 'Apr 2025',
     description: 'Certificate of Proficiency for achieving 9.64 CGPA (2nd Year) at Hindustan Institute of Technology and Science.',
@@ -157,7 +157,7 @@ const awards: AwardItem[] = [
 ];
 
 /* ═══════════════════════════════════════════════════
-   AWARD CARD — celebratory with trophy + glow
+   AWARD CARD -celebratory with trophy + glow
 ═══════════════════════════════════════════════════ */
 function AwardCard({ award, index }: { award: AwardItem; index: number }) {
   return (
@@ -225,7 +225,7 @@ function AwardCard({ award, index }: { award: AwardItem; index: number }) {
 }
 
 /* ═══════════════════════════════════════════════════
-   CERT CARD — with logo + tier badge + hierarchy
+   CERT CARD -with logo + tier badge + hierarchy
 ═══════════════════════════════════════════════════ */
 function CertCard({ cert, index }: { cert: Certification; index: number }) {
   const tier = tierStyle[cert.tier];
@@ -355,13 +355,13 @@ export default function Certifications() {
           CERTIFICATIONS &amp; <span className="text-[#ffc107]">AWARDS</span>
         </h3>
         <p className="mt-4 text-white/40 font-sans text-sm tracking-wide max-w-xl">
-          Validated expertise from industry leaders — Oracle, Docker, GitHub, and more.
+          Validated expertise from industry leaders -Oracle, Docker, GitHub, and more.
         </p>
       </div>
 
       <div className="w-full max-w-7xl mx-auto px-4 md:px-8 pb-20 relative z-10">
 
-        {/* ━━━ AWARDS — celebratory cards ━━━ */}
+        {/* ━━━ AWARDS -celebratory cards ━━━ */}
         <div className="mb-16">
           <h4 className="font-heading text-lg md:text-xl text-white mb-6 flex items-center gap-3">
             <Trophy className="size-5 text-[#ffc107]" />
@@ -374,7 +374,7 @@ export default function Certifications() {
           </div>
         </div>
 
-        {/* ━━━ CERTIFICATIONS — horizontal scroll carousel ━━━ */}
+        {/* ━━━ CERTIFICATIONS -horizontal scroll carousel ━━━ */}
         <div>
           <h4 className="font-heading text-lg md:text-xl text-white mb-6 flex items-center gap-3">
             <Award className="size-5 text-[#e62e2d]" />

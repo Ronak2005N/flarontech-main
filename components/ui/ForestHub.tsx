@@ -100,7 +100,7 @@ function SpiritCard({ spirit, index }: { spirit: typeof spirits[0]; index: numbe
 export default function ForestHub() {
   return (
     <section id="forest-hub" className="relative w-full bg-[#0a0a0c] border-t border-white/5 overflow-hidden">
-      {/* Video background — cartoon forest */}
+      {/* Video background -cartoon forest */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <video
           autoPlay
@@ -113,7 +113,7 @@ export default function ForestHub() {
         >
           <source src="/videos/vecteezy_cartoon-forest-animation-free-video_22653048.mp4" type="video/mp4" />
         </video>
-        {/* Soft edge fade for readability — no color tint */}
+        {/* Soft edge fade for readability -no color tint */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/70 via-transparent to-[#0a0a0c]/70" />
       </div>
 
@@ -132,7 +132,7 @@ export default function ForestHub() {
             THE <span className="text-[#96BF8A]">FOREST</span> HUB
           </h3>
           <p className="text-white/40 font-sans text-sm md:text-base tracking-wide max-w-2xl mx-auto mb-4">
-            A thematic digital ecosystem where every member of Flarontech has a page — Dragon, Elephant, Falcon, Fox, Panther.
+            A thematic digital ecosystem where every member of Flarontech has a page -Dragon, Elephant, Falcon, Fox, Panther.
           </p>
           <p className="text-white/25 font-sans text-xs italic max-w-lg mx-auto mb-12">
             Five spirits, five unique experiences, one interconnected forest.

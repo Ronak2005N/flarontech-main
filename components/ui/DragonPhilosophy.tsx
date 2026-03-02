@@ -6,7 +6,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 import { Rocket, Brain, Compass } from 'lucide-react';
 
 /* ═══════════════════════════════════════════════════
-   ANIMATED COUNTER — counts up when in view
+   ANIMATED COUNTER -counts up when in view
 ═══════════════════════════════════════════════════ */
 function AnimatedCounter({
     target,
@@ -67,13 +67,13 @@ const principles = [
     {
         icon: <Rocket className="size-5" />,
         title: 'Ship First, Perfect Later',
-        desc: 'Working software beats white-paper plans. Every idea gets a prototype within days — not months.',
+        desc: 'Working software beats white-paper plans. Every idea gets a prototype within days -not months.',
         accent: '#e62e2d',
     },
     {
         icon: <Brain className="size-5" />,
         title: 'AI as Co-Pilot, Not Crutch',
-        desc: 'AI amplifies thinking, never replaces it. Understanding comes first — speed comes from mastery, not shortcuts.',
+        desc: 'AI amplifies thinking, never replaces it. Understanding comes first -speed comes from mastery, not shortcuts.',
         accent: '#ffc107',
     },
     {
