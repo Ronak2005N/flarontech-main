@@ -4,13 +4,15 @@ import { useInView } from "./use-in-view"
 
 const skills = [
   "HTML",
-  "CSS",
+  "Tailwind CSS",
   "JavaScript",
   "ReactJs",
   "NextJs",
   "PHP",
   "MySQL",
+  "REST API"
   "Documentation",
+  "Vercel",
   "Canva",
   "Figma",
 ]
