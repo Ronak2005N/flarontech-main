@@ -4,10 +4,10 @@ import { Github, Linkedin, Mail, Globe } from 'lucide-react';
 
 export default function DragonFooter() {
   return (
-    <footer className="relative w-full bg-[#060608] border-t border-white/5 overflow-hidden">
+    <footer className="relative w-full bg-[#060608] overflow-hidden">
       {/* Main Footer Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-8 pt-16 md:pt-24 pb-8">
-        
+
         {/* Big Text + Forest Image Row */}
         <div className="flex flex-col lg:flex-row items-stretch gap-0 mb-16 rounded-3xl overflow-hidden border border-white/5 shadow-[0_0_50px_rgba(0,0,0,0.4)]">
           {/* Forest Image — fills left side */}
