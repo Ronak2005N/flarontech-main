@@ -91,7 +91,7 @@ export default function GlassNav() {
           </div>
 
           {/* Desktop Links */}
-          <div className="hidden md:flex space-x-6 text-xs font-medium tracking-widest text-white/70 uppercase">
+          <div className="hidden md:flex items-center space-x-6 text-xs font-medium tracking-widest text-white/70 uppercase">
             {navLinks.map(link => (
               <a
                 key={link.href}
@@ -107,6 +107,16 @@ export default function GlassNav() {
                 )}
               </a>
             ))}
+            
+            {/* Resume Button */}
+            <a
+              href="/assets/Lokesh_Kumar_AR_Resume_2026.pdf"
+              download="Lokesh_Kumar_AR_Resume_2026.pdf"
+              className="ml-4 px-4 py-2 rounded-full bg-gradient-to-r from-[#e62e2d] to-[#ff5722] text-white text-xs font-bold tracking-widest uppercase transition-all duration-300 hover:shadow-[0_0_20px_rgba(230,46,45,0.8)] hover:scale-105 active:scale-95"
+              aria-label="Download Resume"
+            >
+              Resume
+            </a>
           </div>
 
           {/* Mobile Hamburger Button */}
@@ -158,6 +168,20 @@ export default function GlassNav() {
                 {link.label}
               </a>
             ))}
+            
+            {/* Mobile Resume Button */}
+            <a
+              href="/assets/Lokesh_Kumar_AR_Resume_2026.pdf"
+              download="Lokesh_Kumar_AR_Resume_2026.pdf"
+              className="mt-6 px-6 py-3 rounded-full bg-gradient-to-r from-[#e62e2d] to-[#ff5722] text-white text-sm font-bold tracking-widest uppercase transition-all duration-300 hover:shadow-[0_0_20px_rgba(230,46,45,0.8)] active:scale-95"
+              style={{
+                transitionDelay: menuOpen ? `${navLinks.length * 60}ms` : '0ms',
+                transform: menuOpen ? 'scale(1)' : 'scale(0)',
+                opacity: menuOpen ? 1 : 0,
+              }}
+            >
+              ⬇ Download Resume
+            </a>
           </div>
 
           {/* Decorative line */}
